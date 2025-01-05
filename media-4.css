@@ -1,0 +1,98 @@
+/* Media Query for medium and smaller devices (max-width: 992px) */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav li {
+        display: inline-block;
+        margin: 10px 0;
+    }
+    .content h1 {
+        font-size: 28px;
+    }
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Media Query for smaller devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .navbar-nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    /* Stack team members' cards vertically */
+    .container-fluid .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-body i {
+        font-size: 18px;
+        margin: 5px;
+    }
+}
+
+/* Media Query for very small devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .navbar-nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .card-body i {
+        font-size: 16px;
+        margin: 5px 10px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .container-fluid .row {
+        padding: 0 10px;
+    }
+}
+
+/* Mobile Friendly Footer */
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .footer .col-lg-4 h4 {
+        font-size: 18px;
+    }
+
+    .footer .btn-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

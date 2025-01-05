@@ -1,0 +1,114 @@
+/* Base styles for small screens (Mobile-first approach) */
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand img {
+    max-width: 100px;
+}
+.navbar-nav {
+    text-align: center;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+/* Images responsive */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media queries for medium and small devices */
+@media (max-width: 768px) {
+    /* Navbar adjustments for small screens */
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+
+    /* Course cards layout for medium screens */
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container-fluid.bg-primary {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    /* Adjust category section */
+    .content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust for course section layout */
+    .co-heading h6, .co-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Category images adjustment */
+    .row .col-lg-7, .row .col-lg-5 {
+        width: 100%;
+    }
+
+    /* Footer adjustments */
+    .footer .container {
+        text-align: center;
+    }
+
+    .footer h4 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .btn-social {
+        margin: 0.2rem;
+    }
+}
+
+/* Media query for small devices (Mobile) */
+@media (max-width: 576px) {
+    .container-fluid.bg-primary {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    /* Header text on small devices */
+    .page-header h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Adjust card price size */
+    .card-body .card-title {
+        font-size: 1.2rem;
+    }
+
+    /* Footer links adjustment */
+    .footer .btn-link {
+        font-size: 0.9rem;
+    }
+
+    /* Gallery images */
+    .footer .gallery .col-4 {
+        width: 33.33%;
+        padding: 5px;
+    }
+}

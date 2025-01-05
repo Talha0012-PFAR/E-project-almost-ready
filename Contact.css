@@ -1,0 +1,42 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    }
+    
+    
+    
+    
+    
+    .logo {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    outline: none;
+    border: none;
+    }
+    .logo:hover {
+        transform: scale(1.1);}
+    
+        .navbar{
+            background-color: #4c9ca7; 
+        }
+         /* Header Section Start */
+         .page-header{
+            background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)),url("img/carousel-2.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 75vh;
+            
+        }
+        .container{
+            margin-top: 126px;
+
+        }
+        .content h1, h6 {
+            color: #3a3833 !important;
+            font-weight: bolder;
+        }

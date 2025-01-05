@@ -1,0 +1,103 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Inter", serif;
+}
+
+
+
+
+
+.logo {
+width: 150px;
+height: auto;
+border-radius: 8px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease-in-out;
+outline: none;
+border: none;
+}
+.logo:hover {
+    transform: scale(1.1);}
+
+    .navbar{
+        background-color: #4c9ca7; 
+    }
+    
+    
+    .carousel img{
+        height: 650px;
+        background-color: linear-gradient(rgb(60, 60, 105) rgb(14, 78, 146) rgb(14, 108, 185));
+        align-items: center;
+        opacity:0.8;
+    }
+    #content{
+        top: 54% !important;
+        right: 780px;
+        font-family: "Inter", serif;
+       
+
+
+    }
+    h1{
+        color: rgb(18, 18, 80);
+    }
+    h6{
+        color: yellow;
+        bottom: 210px;
+    }
+   
+    #content1{
+        top: 69% !important;
+        right: 760px;
+        font-family: "Inter", serif;}
+
+  
+
+.card:hover{
+    transform:scale(1.12);
+    opacity: 1;
+    background-color: rgb(187, 233, 235);
+
+}
+.btn-1{
+        
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+  
+}
+.btn-1:hover{
+background-color: #fdf1d3;}
+.star i{
+    color: orange;
+}
+.sub-card-1{
+     
+    border-style: solid;
+}
+.sub-card-2{
+    border-style: solid;
+    ;  
+}
+.sub-card-1:hover{
+
+    opacity: 1;
+    background-color: rgb(187, 233, 235);
+
+}
+.sub-card-2:hover{
+
+    opacity: 1;
+    background-color: rgb(187, 233, 235);
+
+}
+

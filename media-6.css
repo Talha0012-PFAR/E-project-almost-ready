@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Make the navbar more responsive */
+  @media (max-width: 992px) {
+    /* Adjust the navbar for medium devices */
+    .navbar-expand-lg .navbar-nav {
+      text-align: center;
+      width: 100%;
+    }
+  
+    /* Adjust the navbar brand image */
+    .navbar img {
+      width: 150px;
+    }
+  
+    /* Adjust the navbar links */
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    /* Adjust the navbar menu icon */
+    .navbar-toggler {
+      display: block;
+    }
+  }
+  
+  /* Make the service cards responsive */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Make the cards full width on smaller screens */
+      margin-bottom: 20px;
+    }
+  
+    .col-lg-3, .col-md-3, .col-sm-3 {
+      width: 100%; /* Make each column stack */
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Adjust about section layout */
+  @media (max-width: 768px) {
+    .container img {
+      width: 100%; /* Make image take full width */
+      height: auto; /* Ensure aspect ratio is preserved */
+    }
+  
+    /* Stack about section content on top of each other */
+    .col-lg-6 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .text-primary {
+      font-size: 18px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Footer section responsiveness */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 20px 0;
+    }
+  
+    .footer .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer .col-lg-4 {
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    /* Social buttons in the footer */
+    .footer .btn-social {
+      margin: 5px;
+    }
+  }
+  
+  /* Responsive for small devices */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 20px; /* Make title smaller */
+    }
+  
+    .btn-1 {
+      padding: 10px 20px; /* Adjust button size */
+      font-size: 14px; /* Make text smaller */
+    }
+  
+    .navbar img {
+      width: 120px; /* Make logo smaller */
+    }
+  
+    .navbar-nav {
+      font-size: 12px; /* Reduce font size */
+    }
+  
+    .footer .col-4 {
+      width: 100%; /* Make footer images full width */
+    }
+  
+    .footer .btn-social {
+      font-size: 14px; /* Reduce icon size in footer */
+    }
+  }
+  
+  

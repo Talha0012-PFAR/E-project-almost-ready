@@ -1,0 +1,239 @@
+/* Responsive Design */
+
+/* Large Desktop screens */
+/* @media (max-width: 1200px) {
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content button {
+        font-size: 1rem;
+    }
+} */
+
+/* Tablets and medium screens */
+/* @media (max-width: 992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar img {
+        max-height: 40px;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .footer h4 {
+        font-size: 1.2rem;
+    }
+
+    .footer .row img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+} */
+
+/* Small Tablets and Mobile screens */
+/* @media (max-width: 768px) {
+    
+    .content {
+        padding: 80px 20px;
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .footer .col-lg-4 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer .row {
+        text-align: center;
+    }
+
+    .navbar img {
+        max-height: 35px;
+    }
+} */
+
+/* Mobile screens */
+/* @media (max-width: 576px) {
+    .content {
+        padding: 60px 10px;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer h4 {
+        font-size: 1.1rem;
+    }
+
+    .footer .col-lg-4 {
+        margin-bottom: 30px;
+    }
+} */
+
+/* Default (Light Theme) */
+/* For Small devices (mobile) */
+@media (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar-nav {
+      text-align: center;
+    }
+    
+    .navbar-toggler {
+      margin-left: auto;
+    }
+  
+    .logo {
+      max-width: 100px; /* Adjust logo size for smaller screens */
+    }
+  
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Adjust text alignment and padding for smaller screens */
+    #content {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  
+    #content1 {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    .col-lg-6, .col-md-6, .col-sm-6 {
+      margin-bottom: 30px; /* Adjust column spacing */
+    }
+  
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .card {
+      margin-bottom: 20px; /* Space between cards */
+      width: 100%;
+    }
+  
+    .sub-card-1, .sub-card-2 {
+      margin-bottom: 20px; /* Space between subscription cards */
+    }
+  
+    .footer .col-lg-4 {
+      margin-bottom: 20px;
+    }
+  
+    .footer .d-flex {
+      justify-content: center;
+    }
+  
+    .footer .gallery img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .star {
+      font-size: 1.5rem;
+    }
+  
+    .btn-1 {
+      font-size: 1rem;
+      padding: 12px 20px;
+    }
+  }
+  
+  /* For Medium devices (tablets) */
+  @media (max-width: 992px) {
+    /* Adjust navbar */
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .logo {
+      max-width: 120px;
+    }
+  
+    .carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Adjust text content for medium screens */
+    #content {
+      font-size: 3rem;
+    }
+  
+    #content1 {
+      font-size: 1.2rem;
+    }
+  
+    .col-lg-6, .col-md-6, .col-sm-6 {
+      margin-bottom: 20px;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px; /* Add spacing between cards */
+    }
+  
+    .sub-card-1, .sub-card-2 {
+      margin-bottom: 20px;
+    }
+  
+    .footer .col-lg-4 {
+      margin-bottom: 20px;
+    }
+  
+    .footer .d-flex {
+      justify-content: center;
+    }
+  
+    .footer .gallery img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* For large screens */
+  @media (min-width: 1200px) {
+    .container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .logo {
+      max-width: 150px;
+    }
+  
+    .carousel-inner img {
+      height: 400px;
+    }
+  }
+  

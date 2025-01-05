@@ -1,0 +1,85 @@
+/* Media Queries for Small Devices */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-collapse {
+        display: block;
+    }
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+
+    /* Success Stories Cards */
+    .col-lg-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Footer */
+    .footer .col-lg-4 {
+        margin-bottom: 30px;
+    }
+    .footer .btn-link {
+        font-size: 14px;
+    }
+    .footer .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Media Queries for Extra Small Devices */
+@media (max-width: 480px) {
+    /* Navbar */
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-collapse {
+        display: block;
+    }
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    /* Header */
+    .page-header {
+        padding: 40px 10px;
+    }
+    .display-3 {
+        font-size: 30px;
+    }
+
+    /* Success Stories Cards */
+    .col-lg-3 {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Footer */
+    .footer .col-lg-4 {
+        margin-bottom: 20px;
+    }
+    .footer .btn-link {
+        font-size: 12px;
+    }
+}

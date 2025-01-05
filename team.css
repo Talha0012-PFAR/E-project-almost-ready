@@ -1,0 +1,70 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    }
+    
+    
+    
+    /* Navbar Start */
+    
+    .logo {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    outline: none;
+    border: none;
+    }
+    .logo:hover {
+        transform: scale(1.1);}
+    
+        .navbar{
+            background-color: #4c9ca7; 
+        }
+        /* Navbar End */
+/* Banner start */
+        .page-header{
+            background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)),url("img/carousel-2.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 75vh;
+            
+        }
+        .container{
+            margin-top: 126px;
+
+        }
+        /* Banner End */
+
+
+        /* Team Start */
+        .content h1, h6 {
+            color: #3a3833 !important;
+            font-weight: bolder;
+        }
+        /* Team End */
+        /* Instructors Start */
+
+        .card-body{
+            background-color: rgb(201, 232, 243);
+        }
+        .card:hover{
+            transform:scale(1.12);
+            opacity: 1;
+            background-color: rgb(187, 233, 235);
+    
+        }
+        /* Instructors End */
+        /* footer Start */
+        .row img:hover{
+            transform:scale(1.01);
+                opacity: 1;
+                background-color: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(116, 167, 209, 0.411);
+           
+           }
+           /* footer End */
