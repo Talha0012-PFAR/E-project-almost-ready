@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        ul li{
+            list-style: none;
+            display: inline-block;
+            font-size: 24px;
+            /* padding: 5px; */
+            color: orange;
+            margin-left: 20px;
+           font-weight: bold; 
+        }
+        *{margin: 0;
+        padding: 0;
+    box-sizing: border-box;}
+    body {
+  overflow: hidden; /* Hide scrollbars */
+}
+/* Mobile view (screen width up to 576px) */
+@media (max-width: 576px) {
+            .col-lg-5, .col-lg-6 {
+                text-align: center;
+                margin-top: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            ul {
+                text-align: center;
+            }
+            .btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+
+        /* Tablet view (screen width between 577px and 768px) */
+        @media (max-width: 768px) {
+            .col-lg-5, .col-lg-6 {
+                text-align: center;
+                margin-top: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            ul {
+                text-align: center;
+            }
+            .btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+
+        /* Desktop and larger screens (screen width above 768px) */
+        @media (min-width: 769px) {
+            .col-lg-5, .col-lg-6 {
+                margin-top: 0;
+            }
+            .row.mt-4 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row mt-4 d-flex justify-content-around align-items-center">
+        <div class="col-lg-5 col-md-5 col-sm-5 mx-5 ">
+            <img class="mb-5" src="img/game.jpg" alt="" height="400px">
+        </div>
+        <div class="col-lg-6 mx-auto" >
+            <h3>Game Development</h3>
+            <p>A Game Development Course is designed to provide students with the essential skills and knowledge required to design, develop, and deploy interactive and engaging video games. The course covers a wide range of topics, starting with the fundamentals of game design—understanding game mechanics, storytelling, user experience (UX), and creating engaging gameplay loops. Students will learn about the process of conceptualizing and planning a game, from brainstorming ideas to creating game design documents.
+
+                The course dives into game programming, where students become familiar with key programming languages like C# (for Unity) or C++ (for Unreal Engine). They learn how to create game logic, implement physics, and work with graphics and animations. The course also covers the essential principles of object-oriented programming (OOP), which is crucial for developing scalable and maintainable code in game development.
+                
+                Students gain hands-on experience with popular game engines such as Unity and Unreal Engine. They learn how to build games from the ground up, using these engines' visual tools to create environments, characters, and interactions. The course introduces the use of game assets, such as 3D models, textures, audio, and animations, and students learn how to integrate them into their games. The course also covers basic AI programming, enabling students to create intelligent behaviors for NPCs (non-playable characters), pathfinding, and decision-making systems.
+                
+               </p>
+            <!-- <h2 class="text-center w-25 mx-3">Rating</h2> -->
+            <ul>
+                <li><span>&#9733;</span></li>
+                <li><span>&#9733;</span></li>
+                <li><span>&#9733;</span></li>
+                <li><span>&#9733;</span></li>
+                <li><span>&#9733;</span></li>
+            </ul>
+            <div class="btn d-flex justify-content-around w-50">
+                <a class="btn btn-dark" href="https://en.wikipedia.org/wiki/Video_game_development">Read More</a>
+                <a class="btn btn-dark" href="Word.lnk">Download</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

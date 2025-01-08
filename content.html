@@ -16,17 +16,77 @@
             margin-left: 20px;
            font-weight: bold; 
         }
+        body {
+  overflow: hidden; /* Hide scrollbars */
+}
+/* Mobile view (screen width up to 576px) */
+@media (max-width: 576px) {
+            .col-lg-5, .col-lg-6 {
+                text-align: center;
+                margin-top: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            ul {
+                text-align: center;
+            }
+            .btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+
+        /* Tablet view (screen width between 577px and 768px) */
+        @media (max-width: 768px) {
+            .col-lg-5, .col-lg-6 {
+                text-align: center;
+                margin-top: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            ul {
+                text-align: center;
+            }
+            .btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+
+        /* Desktop and larger screens (screen width above 768px) */
+        @media (min-width: 769px) {
+            .col-lg-5, .col-lg-6 {
+                margin-top: 0;
+            }
+            .row.mt-4 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="row mt-4 d-flex justify-content-around align-items-center">
-        <div class="col-lg-5">
-            <img src="img/course-1.jpg" alt="">
+        <div class="col-lg-5 mx-5">
+            <img src="img/web development.jpg" alt="" height="550px">
         </div>
         <div class="col-lg-6 mx-auto" >
             <h3>Web Development</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, vero reprehenderit repellat ducimus porro deleniti doloribus! Nobis, aspernatur natus expedita architecto dolorem iusto modi ut laudantium vel cumque saepe sequi iure perspiciatis earum at? Quia vero eaque quibusdam est dolores amet at cumque qui illum suscipit, quasi tempora nostrum, repudiandae eos, nihil inventore cum voluptas temporibus beatae. Non, excepturi ut voluptate sed pariatur ipsam neque maxime reiciendis dolor facere? Voluptatibus unde doloremque laboriosam accusantium voluptate magnam molestiae et, voluptas perspiciatis reprehenderit porro deleniti voluptates dicta. Placeat omnis hic beatae impedit unde consectetur nemo, tempora, voluptate recusandae iusto vitae obcaecati tenetur.</p>
-            <h2 class="text-center w-25 mx-3">Rating</h2>
+            <p>A Web Development Course is designed to provide learners with the essential skills needed to build modern, dynamic websites and web applications. This course covers both front-end and back-end development, offering a comprehensive overview of the web development process.
+
+                The course starts by introducing front-end web development, where students learn the fundamentals of HTML to structure web content, CSS to style pages and ensure responsiveness across various devices, and JavaScript to add interactivity and dynamic features. It delves into advanced topics like creating responsive web pages using Flexbox and CSS Grid, and making web applications interactive with JavaScript events, DOM manipulation, and asynchronous programming techniques like AJAX.
+                
+                Next, the course transitions to back-end development, focusing on server-side programming with technologies like Node.js. Students are introduced to databases (both SQL and NoSQL), learning how to handle data storage and retrieval, and how to implement secure, user authentication systems. They also gain experience in creating and consuming RESTful APIs, a key component of modern web applications.
+                
+                A significant portion of the course focuses on full-stack development, where learners integrate both front-end and back-end skills to build complete, functioning web applications. They will explore popular frameworks like React.js for building interactive user interfaces and Express.js for server-side logic. 
+                
+                </p>
+            <!-- <h2 class="text-center w-25 mx-3">Rating</h2> -->
             <ul>
                 <li><span>&#9733;</span></li>
                 <li><span>&#9733;</span></li>
@@ -35,8 +95,8 @@
                 <li><span>&#9733;</span></li>
             </ul>
             <div class="btn d-flex justify-content-around w-50">
-                <button class="btn btn-dark">Read More</button>
-                <a class="btn btn-dark" href="#">Download</a>
+                <a class="btn btn-dark" href="https://en.wikipedia.org/wiki/Web_development">Read More</a>
+                <a class="btn btn-dark" href="Word.lnk">Download</a>
             </div>
         </div>
     </div>
